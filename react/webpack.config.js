@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
-const path = require('path');
+const { resolve } = require('path');
+
 
 /** @type {webpack.Configuration} */
 module.exports = {

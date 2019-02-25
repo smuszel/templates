@@ -2,7 +2,7 @@ const { AureliaPlugin } = require('aurelia-webpack-plugin');
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const HtmlPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
-const { resolve } = require('path')
+const { resolve } = require('path');
 
 /** @type {webpack.Configuration} */
 module.exports = {
